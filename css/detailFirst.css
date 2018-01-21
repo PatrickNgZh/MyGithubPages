@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    border: 0;
+    background: none;
+    list-style: none;
+}
+
+#img1 {
+    text-align: center;
+    width: 100%;
+    height: 370px;
+    background: url("../images/BannerFirst.jpeg") fixed center no-repeat;
+}
+
+.text-center {
+    color: #fff;
+    position: relative;
+    top: 30%;
+    font-size: 4em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-shadow: 1px 4px 11px rgb(113, 111, 111);
+}
+
+#img2 {
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background: url("../images/BannerThird.jpeg") fixed center;
+}
+
+#img3 {
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background: url("../images/BannerSecond.jpeg") fixed center;
+}
+
+#author-img {
+    padding-top: 50px;
+    float: left;
+    width: 35%;
+    padding-left: 15%;
+}
+
+#author-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+    border: 1px solid #bbb;
+}
+
+#author-img h2 {
+    color: #000;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+#author-introduction {
+    float: left;
+    width: 40%;
+    padding-right: 10%;
+}
+
+#author-introduction h2 {
+    color: #000;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+}
+
+#author-introduction p {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #7f7f7f;
+}
+
+#scenery-introduction {
+    float: left;
+    width: 40%;
+    padding-left: 10%;
+}
+
+#scenery-introduction h2 {
+    color: #000;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+}
+
+#scenery-introduction p {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #7f7f7f;
+}
+
+#scenery-img {
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+}
+
+#scenery-img img {
+    height: 330px;
+    width: 100%;
+}
+
+.diary {
+    width: 100%;
+    height: 330px;
+    padding: 100px 0;
+}
+
+#content {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #7f7f7f;
+}
+
+#content h2 {
+    width: 50%;
+    position: relative;
+    left: 10%;
+    color: #000;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin: 0 0 30px 0;
+}
+
+#left-content {
+    float: left;
+    width: 40%;
+    padding-left: 10%;
+}
+
+#right-content {
+    float: left;
+    width: 40%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#footer-style {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: url("../images/footer-bg.PNG") center;
+}

@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    border: 0px;
+    background: none;
+    list-style: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    background: url("../images/BannerFirst.jpeg")  top center no-repeat; background-size:cover;;
+}
+
+
+#content {
+    clear: left;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto 60px;
+    width: 500px;
+    padding: 60px;
+    opacity: 0.9;
+}
+
+
+td {
+    padding: 20px 20px 20px 0;
+}
+
+.select{
+    height: 20px;
+    width: 220px;
+    vertical-align: middle;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    transition: padding .25s;
+}
+
+textarea {
+    padding: 8px;
+    width: 300px;
+    background: #fff url(../images/attention.png) no-repeat 98% center;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    transition: padding .25s;
+}
+
+textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right:70px;
+}
+
+textarea:focus:invalid {
+    background: #fff url(../images/warn.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+textarea:required:valid {
+    background: #fff url(../images/right.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+button {
+    padding: 8px 15px;
+    margin-left: 180px;
+    background: #68b12f;
+    border: 1px solid #509111;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: .85;
+    cursor: pointer;
+}
+
+button:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+#blank {
+    width: 100%;
+    height: 100px;
+    background: #f2f4f7;
+    opacity: 0;
+}
