@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" type="text/css"/>
+    <!--注意bootstrap要使用jquery-->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: outside none none;
+        }
+
+        .myheader {
+            font-weight: bold;
+            position: fixed;
+            z-index: 100;
+            width: 100%;
+            height: 58px;
+            background-color: rgb(0, 92, 48);
+            opacity: 0.9;
+            border: 0px;
+            border-radius: 0px;
+            /*去除bootstrap默认样式*/
+        }
+
+        #mybrand {
+            position: absolute;
+            top: 50%;
+            margin-top: -21px;
+            /*居中方式，修正法*/
+            left: 17%;
+        }
+
+        #mynav {
+            position: absolute;
+            left: 22%;
+        }
+
+        #mynav ul {
+            float: left;
+        }
+
+        #mynav ul li {
+            float: left;
+            width: 100px;
+            height: 58px;
+            text-align: center;
+            line-height: 58px;
+        }
+
+        #mynav ul li a {
+            display: block;
+            width: 100px;
+            height: 58px;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+
+        #mynav ul li a:hover {
+            border-bottom: 5px solid #0e8b61;
+        }
+
+
+        #mylogin {
+            float: left;
+            width: 100px;
+            height: 34px;
+            background-color: #38B774;
+            margin-left: 10px;
+            position: relative;
+            top: 12px;
+            left: 20px;
+            text-align: center;
+            line-height: 34px;
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+            /*圆角边框：*/
+            border-radius: 4px;
+        }
+
+        #mylogin:hover {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default myheader" role="navigation">
+
+    <img id="mybrand" src="images/logo.png"/>
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#mynav">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="mynav">
+        <ul>
+            <li><a href="index.html">网站首页</a></li>
+            <li><a href="http://zhaosheng.zhbit.com/Column/setting">旅行游记</a></li>
+            <li><a href="http://dangqun.zhbit.com/">旅行游记</a></li>
+            <li><a href="http://guojihz.zhbit.com/">旅行游记</a></li>
+            <li><a href="http://www.zhbit.com/zhaos_jy/jycy.html">关于我们</a></li>
+            <li><a href="registerFirst.html">用户注册</a></li>
+        </ul>
+        <a href="login.html" id="mylogin">登录</a>
+    </div>
+
+</nav>
+
+</body>
+</html>
